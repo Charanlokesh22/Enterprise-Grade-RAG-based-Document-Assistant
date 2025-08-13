@@ -23,13 +23,24 @@ Features:
 - Infrastructure as Code deployment with Terraform
 
 Setup Instructions:
+# Clone the repository
 git clone https://github.com/Charanlokesh22/enterprise-rag-assistant.git
+
+# Navigate into the project folder
 cd enterprise-rag-assistant
+
+# Install dependencies
 pip install -r requirements.txt
--export PINECONE_API_KEY=your_pinecone_api_key
--export AZURE_OPENAI_KEY=your_azure_openai_key
--export AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
--export ARIZE_API_KEY=your_arize_api_key
--export WHYLABS_API_KEY=your_whylabs_api_key
+
+# Set environment variables
+export PINECONE_API_KEY=your_pinecone_api_key
+export AZURE_OPENAI_KEY=your_azure_openai_key
+export AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
+export ARIZE_API_KEY=your_arize_api_key
+export WHYLABS_API_KEY=your_whylabs_api_key
+
+# Download spaCy model
 python -m spacy download en_core_web_sm
+
+# Run the application
 python main.py
