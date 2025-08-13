@@ -32,12 +32,13 @@ cd enterprise-rag-assistant
 Install dependencies:
 pip install -r requirements.txt
 
-# Set environment variables
-export PINECONE_API_KEY=your_pinecone_api_key
-export AZURE_OPENAI_KEY=your_azure_openai_key
-export AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
-export ARIZE_API_KEY=your_arize_api_key
-export WHYLABS_API_KEY=your_whylabs_api_key
+Set Environment Variables:
+- export PINECONE_API_KEY=your_pinecone_api_key
+- export AZURE_OPENAI_KEY=your_azure_openai_key
+- export AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
+- export ARIZE_API_KEY=your_arize_api_key
+- export WHYLABS_API_KEY=your_whylabs_api_key
+
 
 
 # Download spaCy model
