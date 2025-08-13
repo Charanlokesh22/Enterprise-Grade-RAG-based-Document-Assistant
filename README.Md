@@ -23,16 +23,17 @@ Features:
 - Infrastructure as Code deployment with Terraform
 
 Setup Instructions:
-# Clone the repository
+Clone the repository:
 git clone https://github.com/Charanlokesh22/enterprise-rag-assistant.git
 
-# Navigate into the project folder
+Navigate into the project folder:
 cd enterprise-rag-assistant
 
-# Install dependencies
+Install dependencies:
 pip install -r requirements.txt
 
-# Set environment variables
+Set environment variables:
+
 export PINECONE_API_KEY=your_pinecone_api_key
 export AZURE_OPENAI_KEY=your_azure_openai_key
 export AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint
