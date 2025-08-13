@@ -1,0 +1,10 @@
+enterprise-rag-assistant/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py             
+│   ├── config.py               
+│   ├── retriever.py            
+│   ├── rag_pipeline.py         
+│   ├── agent_workflow.py       
+│   └── monitor.py 
