@@ -16,6 +16,7 @@ class Config:
     ARIZE_SPACE_KEY = os.getenv("ARIZE_SPACE_KEY")
     
     
+    
 
     WHYLABS_API_KEY = os.getenv("WHYLABS_API_KEY")
     WHYLABS_ORG_ID = os.getenv("WHYLABS_ORG_ID")
